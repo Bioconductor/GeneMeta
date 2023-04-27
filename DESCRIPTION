@@ -6,7 +6,7 @@ Authors@R: c(
     person("Robert", "Gentleman", role = "ctb"),
     person("Markus", "Ruschhaupt", role = "ctb"),
     person("Rohit", "Satyam", role = "ctb",
-        comment = "Converted YOUR_VIGNETTE_NAME vignette from Sweave to RMarkdown / HTML."),
+        comment = "Converted GeneMeta vignette from Sweave to RMarkdown / HTML."),
     person("Bioconductor Package Maintainer",
         email = "maintainer@bioconductor.org", role = "cre"))
 Description: A collection of meta-analysis tools for analysing high
