@@ -8,16 +8,16 @@ author:
 - name: Rohit Satyam
   affiliation: "Vignette translation from Sweave to Rmarkdown / HTML"
 clean: false
-date: "`r Sys.Date()`"
+date: "`r format(Sys.Date(), '%d %B, %Y')`"
 package: GeneMeta
 vignette: >
- %VignetteIndexEntry{Meta-analysis for Microarray Experiments}
- %VignetteEncoding{UTF-8}
- %VignetteKeywords{meta analysis, combining data}
- %VignettePackage{GeneMeta}
- %VignetteAuthor{Robert Gentleman}
- 
- %VignetteEngine{knitr::rmarkdown}
+ %\VignetteIndexEntry{Meta-analysis for Microarray Experiments}
+ %\VignetteEncoding{UTF-8}
+ %\VignetteKeywords{meta analysis, combining data}
+ %\VignettePackage{GeneMeta}
+ %\VignetteAuthor{Robert Gentleman}
+ %\VignetteEngine{knitr::rmarkdown}
+
 bibliography:
 - references.bib
 link-citations: TRUE
@@ -26,7 +26,6 @@ csl: bioinformatics.csl
 output: 
     BiocStyle::html_document:
       toc_float: true
-    BiocStyle::pdf_document: default
 editor_options: 
   markdown: 
     wrap: 72
